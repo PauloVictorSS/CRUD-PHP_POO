@@ -1,5 +1,8 @@
 <?php
     include_once('config.php');
+
+    $mysql = new MySql();
+    $pdo = $mysql->connect();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +14,6 @@
     <title>CRUD com PHPOO</title>
 </head>
 <body>
-    
     <main>
         <?php include("php/include_pages.php"); ?>
     </main>
