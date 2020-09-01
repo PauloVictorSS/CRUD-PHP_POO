@@ -47,3 +47,16 @@ div.box div.text-box a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+div.select{
+    width: 95%;
+    max-width: 1000px;
+    box-shadow: 5px 5px 5px #111;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}

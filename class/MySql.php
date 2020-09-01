@@ -18,6 +18,12 @@
 			return self::$pdo;
         }
 
+        public function selectAll($pdo){
+            $sql = $pdo->prepare("select * from animal");
+            $sql->execute();
+            return $sql->fetchALL(PDO::FETCH_ASSOC);
+        }
+
     }
     
 
