@@ -24,6 +24,12 @@
             return $sql->fetchALL(PDO::FETCH_ASSOC);
         }
 
+        public function addAnimal($pdo, $name, $type, $age){
+            $sql = $pdo->prepare("insert into animal values(null, ?, ?, ?)");
+            $sql->execute(array($name, $type, $age));
+            return $sql->rowCount();
+        }
+
     }
     
 
