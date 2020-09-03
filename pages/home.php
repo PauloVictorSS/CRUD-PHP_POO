@@ -1,17 +1,29 @@
 <div class="box">
     <h1>O que você vai fazer?</h1>
-    <div class="text-box left">
-        <a href="<?php echo INCLUDE_PATH ?>add">Adicionar novo elemento</a>
-    </div>
-    <div class="text-box right">
-        <a href="<?php echo INCLUDE_PATH ?>select">Listar todos os elementos</a>
-    </div>
+
+    <a href="<?php echo INCLUDE_PATH ?>add">
+        <div class="text-box left">
+            <p>Adicionar novo elemento</p>
+        </div>
+    </a>
+
+    <a href="<?php echo INCLUDE_PATH ?>select">
+        <div class="text-box right">
+            <p>Listar todos os elementos</p>
+        </div>
+    </a>
     <div class="clear"></div>
-    <div class="text-box left">
-        <a href="<?php echo INCLUDE_PATH ?>update">Editar um elemento</a>
-    </div>
-    <div class="text-box right">
-        <a href="<?php echo INCLUDE_PATH ?>delete">Excluir um elemento</a>
-    </div>
+
+    <a href="<?php echo INCLUDE_PATH ?>update">
+        <div class="text-box left">
+            <p>Editar um elemento</p>
+        </div>
+    </a>
+
+    <a href="<?php echo INCLUDE_PATH ?>delete">
+        <div class="text-box right">
+            <p>Excluir um elemento</p>
+        </div>
+    </a>
     <div class="clear"></div>
 </div>

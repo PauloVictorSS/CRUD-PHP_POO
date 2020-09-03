@@ -57,13 +57,14 @@ div.box div.text-box{
     transition: 0.2s;
     cursor: pointer;
 
+    text-align: center;
 }
 
 div.box div.text-box:hover{
     background: #d1aa0d;
 }
 
-div.box div.text-box a{
+div.box div.text-box p{
     position: absolute;
     left: 50%;
     top: 50%;
