@@ -2,7 +2,6 @@
 
     <table>
         <tr>
-            <th>ID</th>
             <th>Nome</th>
             <th>Tipo de Animal</th>     
             <th>Idade do Animal</th>
@@ -14,7 +13,6 @@
 
             foreach ($array as $animal) {    
                 echo "<tr>";
-                echo "<td>".$animal['id']."</td>";
                 echo "<td>".$animal['name']."</td>";
                 echo "<td>".$animal['type']."</td>";
                 echo "<td>".$animal['age']."</td>";
