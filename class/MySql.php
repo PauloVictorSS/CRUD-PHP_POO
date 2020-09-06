@@ -30,6 +30,12 @@
             return $sql->rowCount();
         }
 
+        public function deleteAnimal($pdo, $id){
+            $sql = $pdo->prepare("DELETE FROM `animal` WHERE id = ?");
+            $sql->execute(array($id));
+            return $sql->rowCount();
+        }
+
     }
     
 
