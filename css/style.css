@@ -135,6 +135,7 @@ div.select form{
 
 div.select form input,
 div.select form button,
+div.select form select{
     width: 90%;
     max-width: 400px;
     padding: 9px;
