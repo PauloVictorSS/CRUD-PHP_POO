@@ -21,6 +21,22 @@ div.select a:hover{
     text-decoration: underline;
 }
 
+div.mensage{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #111;
+}
+
+div.green{
+    background: #018b01;
+}
+div.red{
+    background: #8b0101;
+}
+
 
 /* Home CSS */
 
@@ -118,7 +134,7 @@ div.select form{
 }
 
 div.select form input,
-div.select form button{
+div.select form button,
     width: 90%;
     max-width: 400px;
     padding: 9px;

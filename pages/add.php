@@ -9,10 +9,9 @@
         $result = $mysql->addAnimal($pdo, $name, $type, $age);
 
         if($result == 1)
-            echo "Deu certo";
+            echo "<div class='mensage green'><p>Animal adicionado com sucesso!<p></div>";
         else
-            echo "Deu ruim";
-
+            echo "<div class='mensage red'><p>Algo deu errado<p></div>";
     }
     
 ?>
