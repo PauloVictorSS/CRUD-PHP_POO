@@ -28,7 +28,7 @@
         <div class="animals">
             <input type="text" name="name" value="<?php echo $animal["name"]; ?>" required>
             <input type="text" name="type" value="<?php echo $animal["type"]; ?>" required>
-            <input type="text" name="age" value="<?php echo $animal["age"]; ?>" required>
+            <input type="number" name="age" value="<?php echo $animal["age"]; ?>" required>
             <button type="submit" value="<?php echo $animal["id"]; ?>" name="action" form="<?php echo $animal["id"]; ?>">OK</button>
         </div>
         
