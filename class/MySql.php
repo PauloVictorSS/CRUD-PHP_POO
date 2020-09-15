@@ -36,8 +36,12 @@
             return $sql->rowCount();
         }
 
-    }
-    
+        public function updateAnimal($pdo, $id, $name, $type, $age){
+            $sql = $pdo->prepare("UPDATE `animal` SET name = ?, type = ?, age = ? WHERE id = ?");
+            $sql->execute(array($name, $type, $age, $id));
+            return $sql->errorInfo();
+        }
 
+    }
 
 ?>
